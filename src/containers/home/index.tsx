@@ -9,7 +9,7 @@ export default function HomeContainer() {
 			<FeaturedMovie movie={Movies.results[4]} />
 
 			<MoviesSection
-				title="Popular Films"
+				title="Popular Film"
 				movies={Movies.results.slice(0, 5)}
 			/>
 			<MoviesSection
